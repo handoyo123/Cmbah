@@ -125,7 +125,7 @@ try:
    except UsernameOccupiedError:
     pass
   UravxBuCwNMpYWTzKhcg('Biasa kang sabar')
-  await UravxBuCwNMpYWTzKhcl.send_message('DOGEClickBot','/visit')
+  await UravxBuCwNMpYWTzKhcl.send_message('Dogecoin_click_bot','/visit')
   async def UravxBuCwNMpYWTzKhPk(event):
    UravxBuCwNMpYWTzKhcb=event.original_update
    if UravxBuCwNMpYWTzKhRt(UravxBuCwNMpYWTzKhcb)is not UpdateShortMessage:
@@ -156,21 +156,21 @@ try:
         UravxBuCwNMpYWTzKhcg('Skip kang iklan bandel',UravxBuCwNMpYWTzKhPE)
         UravxBuCwNMpYWTzKhci=UravxBuCwNMpYWTzKhco[-7:]
         UravxBuCwNMpYWTzKhcj='{"method":"skip_click","id":"%s"}'%UravxBuCwNMpYWTzKhci
-        UravxBuCwNMpYWTzKhcE=botcallback('DOGEClickBot',UravxBuCwNMpYWTzKhcb.message.id,data=UravxBuCwNMpYWTzKhcj.encode())
+        UravxBuCwNMpYWTzKhcE=botcallback('Dogecoin_click_bot',UravxBuCwNMpYWTzKhcb.message.id,data=UravxBuCwNMpYWTzKhcj.encode())
         await UravxBuCwNMpYWTzKhcl(UravxBuCwNMpYWTzKhcE)
         break
        UravxBuCwNMpYWTzKhcD+=1
        UravxBuCwNMpYWTzKhPy(3)
-  UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPk,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="DOGEClickBot"))
+  UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPk,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="Dogecoin_click_bot"))
   async def UravxBuCwNMpYWTzKhPL(event):
    UravxBuCwNMpYWTzKhcg(UravxBuCwNMpYWTzKhPd+"waktunya ganti tuyul"+UravxBuCwNMpYWTzKhPG)
    UravxBuCwNMpYWTzKhcg("Disconnecting")
    await UravxBuCwNMpYWTzKhcl.disconnect()
-  UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPL,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="DOGEClickBot",pattern='Sorry, w.'))
+  UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPL,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="Dogecoin_click_bot",pattern='Sorry, w.'))
   async def UravxBuCwNMpYWTzKhPe(event):
    if UravxBuCwNMpYWTzKhRt(event.original_update):
     UravxBuCwNMpYWTzKhcg(UravxBuCwNMpYWTzKhPq+event.raw_text+"\n")
-  UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPe,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="DOGEClickBot",pattern='You earned'))
+  UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPe,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="Dogecoin_click_bot",pattern='You earned'))
   await UravxBuCwNMpYWTzKhcl.run_until_disconnected()
  UravxBuCwNMpYWTzKhcA.run_until_complete(UravxBuCwNMpYWTzKhPF())
 except UravxBuCwNMpYWTzKhRe:
