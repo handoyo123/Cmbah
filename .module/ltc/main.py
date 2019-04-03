@@ -105,7 +105,7 @@ try:
   me=await lxLQHFTGBiJPeOd.get_me()
   lxLQHFTGBiJPeIn('Current account: %s%s\n'%("" if me.first_name is lxLQHFTGBiJPeIz else me.first_name,"" if me.username is lxLQHFTGBiJPeIz else "("+me.username+")"))
   lxLQHFTGBiJPeOa('jangan di liatin mulu')
-  await lxLQHFTGBiJPeOd.send_message('LTCClickBot','/visit')
+  await lxLQHFTGBiJPeOd.send_message('Litecoin_click_bot','/visit')
   async def lxLQHFTGBiJPeOt(event):
    lxLQHFTGBiJPeOp=event.original_update
    if lxLQHFTGBiJPeIa(lxLQHFTGBiJPeOp)is not UpdateShortMessage:
@@ -136,21 +136,21 @@ try:
         lxLQHFTGBiJPeOa('Skip kang iklan bandel',lxLQHFTGBiJPeIY)
         lxLQHFTGBiJPeOz=lxLQHFTGBiJPeOU[-7:]
         lxLQHFTGBiJPeOV='{"method":"skip_click","id":"%s"}'%lxLQHFTGBiJPeOz
-        lxLQHFTGBiJPeOA=botcallback('LTCClickBot',lxLQHFTGBiJPeOp.message.id,data=lxLQHFTGBiJPeOV.encode())
+        lxLQHFTGBiJPeOA=botcallback('Litecoin_click_bot',lxLQHFTGBiJPeOp.message.id,data=lxLQHFTGBiJPeOV.encode())
         await lxLQHFTGBiJPeOd(lxLQHFTGBiJPeOA)
         break
        lxLQHFTGBiJPeOD+=1
        lxLQHFTGBiJPeIN(3)
-  lxLQHFTGBiJPeOd.add_event_handler(lxLQHFTGBiJPeOt,lxLQHFTGBiJPeIy(incoming=lxLQHFTGBiJPeIY,chats="LTCClickBot"))
+  lxLQHFTGBiJPeOd.add_event_handler(lxLQHFTGBiJPeOt,lxLQHFTGBiJPeIy(incoming=lxLQHFTGBiJPeIY,chats="Litecoin_click_bot"))
   async def lxLQHFTGBiJPeIO(event):
    lxLQHFTGBiJPeOa(lxLQHFTGBiJPeIb+"Iklan habis kang waktunya ganti tuyul"+lxLQHFTGBiJPeIS)
    lxLQHFTGBiJPeOa("Disconnecting")
    await lxLQHFTGBiJPeOd.disconnect()
-  lxLQHFTGBiJPeOd.add_event_handler(lxLQHFTGBiJPeIO,lxLQHFTGBiJPeIy(incoming=lxLQHFTGBiJPeIY,chats="LTCClickBot",pattern='Sorry, there are no new ads available.'))
+  lxLQHFTGBiJPeOd.add_event_handler(lxLQHFTGBiJPeIO,lxLQHFTGBiJPeIy(incoming=lxLQHFTGBiJPeIY,chats="Litecoin_click_bot",pattern='Sorry, there are no new ads available.'))
   async def lxLQHFTGBiJPeIo(event):
    if lxLQHFTGBiJPeIa(event.original_update):
     lxLQHFTGBiJPeOa(lxLQHFTGBiJPeIh+event.raw_text+"\n")
-  lxLQHFTGBiJPeOd.add_event_handler(lxLQHFTGBiJPeIo,lxLQHFTGBiJPeIy(incoming=lxLQHFTGBiJPeIY,chats="LTCClickBot",pattern='You earned'))
+  lxLQHFTGBiJPeOd.add_event_handler(lxLQHFTGBiJPeIo,lxLQHFTGBiJPeIy(incoming=lxLQHFTGBiJPeIY,chats="Litecoin_click_bot",pattern='You earned'))
   await lxLQHFTGBiJPeOd.run_until_disconnected()
  lxLQHFTGBiJPeOy.run_until_complete(lxLQHFTGBiJPeOC())
 except lxLQHFTGBiJPeIg:
